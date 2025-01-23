@@ -46,16 +46,18 @@ header .navbar .navbar-nav .nav-item .nav-link .fa-solid {
   margin-right: 6px;
 }
 
-header .navbar .navbar-nav .nav-item .nav-link:hover {
+header .navbar .navbar-nav .nav-item:hover {
   background: url("../image/hover_active.jpg");
   background-repeat: no-repeat;
   background-position: bottom center;
+  transition: 0.2s all;
 }
 
 header .navbar .navbar-nav .nav-item .nav-link.active {
   background: #434442;
   color: white;
   border: 2px solid #006400;
+  background-clip: padding-box;
   border-radius: 4px;
 }
 
